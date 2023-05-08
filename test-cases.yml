@@ -384,11 +384,11 @@
     -
   steps:
     - Открыть любую страницу в браузерах:
-    * Safari
-    * Chrome
-    * Yandex
-    * Opera
-    * Edge
+    - Safari
+    - Chrome
+    - Yandex
+    - Opera
+    - Edge
   expected-result: |
     Приложение отображается корректно, функциональность приложения одинакова
 
