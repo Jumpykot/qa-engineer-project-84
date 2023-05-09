@@ -383,7 +383,7 @@
   test-data: |
     -
   steps:
-    - Открыть любую страницу в браузерах: Safari, Chrome, Yandex, Opera, Edge
+    - Открыть любую страницу в браузерах Safari, Chrome, Yandex, Opera, Edge
   expected-result: |
     Приложение отображается корректно, функциональность приложения одинакова
 
@@ -394,7 +394,7 @@
   prerequisites: |
     -
   test-data: |
-    -
+    - test
   steps:
     - Воспользоваться сторонним сервисом для нагрузочного тестирования, например https://loaddy.com/
   expected-result: |
@@ -406,8 +406,10 @@
     Сайт должен быстро загружать страницы
   prerequisites: |
     -
+  test-data: |
+    - test
   steps:
-    Открыть dev tool, Lighthouse
-    Нажать Analyze page load 
+    - Открыть dev tool, Lighthouse
+    - Нажать Analyze page load 
   expected-result: |
     Приложение прошло проверку, результат > 80
